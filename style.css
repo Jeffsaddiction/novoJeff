@@ -76,14 +76,14 @@ a {
 .info h1 {
     font-family: "frijole";
     color: rgb(0, 0, 0);
-    font-size: 60px;
+    font-size: 100px;
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.833); 
 }
 
 .info p {
     font-family: "anton";
     color: rgb(0, 0, 0);
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.078); 
 }
@@ -270,7 +270,7 @@ a:hover{
         flex-direction: column;
         width: 100vw;
         height: 100%;
-        margin-top: 15%;
+        margin-top: 13%;
         overflow: hidden;
     }
 
@@ -282,6 +282,7 @@ a:hover{
     }
 
     .foto{
+
         width: 100%;
         height: 100%;
         overflow: hidden;
@@ -319,7 +320,7 @@ a:hover{
 
     .info {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         order: 2;
         width: 100vw;
         height: 30%;
@@ -360,10 +361,11 @@ a:hover{
         justify-content: space-around;
         align-items: center;
     }
+
     .mix audio {
         margin-left: 5%;
-        margin-top: 15%;
-        height: 15%;
+        margin-top: 13%;
+        height: 18%;
     }
 
     .mix img {
